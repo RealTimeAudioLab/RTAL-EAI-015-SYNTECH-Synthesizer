@@ -123,7 +123,7 @@ The system separates time-critical synthesis from GUI and MIDI handling. Control
 - **MIDI Learn:** persistent per-parameter mappings.
 - **Program Change:** addresses slots `0–127`.
 
-For the authoritative parameter names and CC mapping, see [`doc/README.md`](../doc/README.md). Verify MIDI wiring and controller channel settings during integration.
+For the authoritative parameter names and CC mapping, see [`midi_implementation/README.md`](../midi_implementation/README.md). Verify MIDI wiring and controller channel settings during integration.
 
 ## 7. Upstream attribution and licenses
 
