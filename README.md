@@ -40,8 +40,8 @@ Our goal is not a circuit-identical hardware replica or an officially endorsed E
 | Target controller | **ESP32-S3**, Guition **JC4827W543** main module |
 | Interface | **480 × 272** color touchscreen, **LVGL 8.4** |
 | Audio output | Digital **I²S** audio to an external DAC / audio stage |
-| Target sample rate | **44,100 samples/s** |
-| Polyphony policy | **6 voices** in normal operation; **4 voices** permitted for exceptionally heavy CROSS1/CROSS2 patches to preserve glitch-free audio |
+| Target sample rate | **32.000 samples/s** |
+| Polyphony policy | **6 voices** |
 | Layers | **UPPER / LOWER**, with single, split and double concepts |
 | Oscillators | 2 per voice; waveform selection, PWM, detune and oscillator sync |
 | Additional sources | Noise, pink-noise option, ring and cross modulation |
@@ -160,8 +160,7 @@ The source spreadsheet also defines **MIDI Learn identifiers**, **parameter rang
 The patch manager is designed for **128 slots**, with a dedicated bank of 80 factory patches and 48 user patches. The touch UI includes patch browsing, a name field, LOAD and SAVE controls and a visual indication of loading state. SD storage and MIDI Program Change access support both standalone use and integration with a DAW or MIDI controller.
 
 - Normal voice target: **6-note polyphony**.
-- Real-time safeguard: **up to 4 voices** for particularly CPU-intensive CROSS1/CROSS2 settings.
-- Primary audio target: **44.1 kHz**, with a fixed real-time audio block strategy.
+- Primary audio target: **32 kHz**, with a fixed real-time audio block strategy.
 - Live timing counters: **DSP processing time, XRUNs and command queue state**.
 
 Because screenshots cover multiple development revisions, displayed historical counter values should not be treated as final benchmarks.
