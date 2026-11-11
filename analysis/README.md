@@ -209,7 +209,7 @@ References:
 *Documentation revision 1.0.1 (corrected against V1.0.0 FINAL configuration) — 11 November 2026. This text is intended for GitHub publication as a technical companion document, with numerical claims explicitly scoped to their evidence.*
 
 
-## V1.0.2 addendum: Final firmware source audit
+## V1.0 addendum: Final firmware source audit
 
 A **static source audit** of `RTAL_SYNTECH_V1_0_0_FINAL(2).ZIP` was performed on November 11, 2026. It establishes:
 
