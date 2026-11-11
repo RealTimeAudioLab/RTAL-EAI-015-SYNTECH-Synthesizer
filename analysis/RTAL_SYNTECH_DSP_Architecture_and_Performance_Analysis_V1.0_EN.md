@@ -217,4 +217,3 @@ A **static source audit** of `RTAL_SYNTECH_V1_0_0_FINAL.ZIP` was performed on No
 - **Memory allocation:** Synthesizer state also prefers internal SRAM with PSRAM fallback. Chorus delay (8,192 B), limiter delay (1,536 B payload), scratch/audio buffers and the LVGL buffer (57,600 B) are identifiable in source. Exact full RAM/flash accounting requires a linker map and runtime measurements.
 - **Polyphony terminology:** The engine allocates **eight voice slots per layer**, not exactly six total. SYNTECH's six-note operating target should not be confused with the underlying slot capacity or two-layer DSP instances.
 
-**Limits:** This was not a target-device compilation, hardware benchmark or complete numerical LUT verification. Historical reverb A/B timing claims therefore remain unverified by this ZIP. See `RTAL_SYNTECH_V1_0_0_FINAL_Quellcode_Audit_DSP_Speicher_32k_DE.md` for the detailed German source audit.
