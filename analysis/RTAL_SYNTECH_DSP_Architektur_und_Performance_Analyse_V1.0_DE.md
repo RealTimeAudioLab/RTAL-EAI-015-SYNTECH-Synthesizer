@@ -3,7 +3,7 @@
 ## Hohe Klangqualität durch eine effiziente DSP-Architektur
 
 **Technische Architektur- und Performance-Analyse — RTAL SYNTECH V1.0.0 FINAL**  
-**Dokumentrevision: 1.0.2 (mit Quellcode-Audit)**  
+**Dokumentrevision: 1.0 (mit Quellcode-Audit)**  
 **Datum:** 11. November 2026  
 **Plattform:** ESP32-S3 / JC4827W543 (MAIN)  
 **Abtastrate:** 32.000 Hz | **Blockgröße:** 256 Audioframes | **Release-Konfiguration:** 6-stimmige Polyphonie
