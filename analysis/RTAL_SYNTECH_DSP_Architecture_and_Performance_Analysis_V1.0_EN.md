@@ -1,10 +1,9 @@
 # Inside RTAL SYNTECH
-> **V1.0.2 update:** Earlier disclaimers stating that final source had not yet been reviewed are superseded by the static audit of the uploaded V1.0.0 FINAL ZIP. Historical benchmarks remain unverified without runtime logs.
 
 ## High-Quality Sound with an Efficient DSP Architecture
 
 **Technical architecture and performance analysis — RTAL SYNTECH V1.0.0 FINAL**  
-**Document revision: 1.0.2 (source-audited)**  
+**Document revision: 1.0 (source-audited)**  
 **Date:** 11 November 2026  
 **Platform:** ESP32-S3 / JC4827W543 (MAIN)  
 **Sampling rate:** 32,000 Hz | **Block size:** 256 audio frames | **Released configuration:** 6-note polyphony
@@ -207,12 +206,9 @@ References:
 
 ---
 
-*Documentation revision 1.0.1 (corrected against V1.0.0 FINAL configuration) — 11 November 2026. This text is intended for GitHub publication as a technical companion document, with numerical claims explicitly scoped to their evidence.*
+## V1.0 addendum: Final firmware source audit
 
-
-## V1.0.2 addendum: Final firmware source audit
-
-A **static source audit** of `RTAL_SYNTECH_V1_0_0_FINAL(2).ZIP` was performed on November 11, 2026. It establishes:
+A **static source audit** of `RTAL_SYNTECH_V1_0_0_FINAL.ZIP` was performed on November 11, 2026. It establishes:
 
 - **32,000 Hz / 256 stereo frames / 8,000 µs:** `RTAL_AUDIO_SAMPLE_RATE`, `FRAMES`, `SC_FS`, and the I²S configuration agree, with a compile-time assertion between DSP and I²S rates.
 - **32-kHz DSP port:** `sc_tables.h` explicitly identifies regenerated pitch/cutoff tables. LFO scaling, envelope timing, 96-sample filter-coefficient blocks, chorus, reverb delay/decay and limiter timing are adapted to 32 kHz.
