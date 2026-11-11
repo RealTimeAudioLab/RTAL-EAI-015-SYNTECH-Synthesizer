@@ -215,6 +215,7 @@ https://github.com/user-attachments/assets/709780a9-422d-4dee-b969-57c467f08526
 ## Documentation
 
 - **[Detailed user manual — German](doc/RTAL_SYNTECH_Benutzerhandbuch_V1.0.0.md)** · [PDF version](doc/RTAL_SYNTECH_Benutzerhandbuch_V1.0.0.pdf)
+- **[Detailed user manual — English](doc/RTAL_SYNTECH_User_Manual_V1.0.0_EN.md)** · [PDF version](doc/RTAL_SYNTECH_User_Manual_V1.0.0_EN.pdf)
 - **[Complete MIDI CC reference](midi_implementation/README.md)** · [editable mapping spreadsheet](midi_implementation/RTAL_SYNTECH_MIDI_CC_STANDARD_MOPHO_EDITOR.xlsx)
 - **[Firmware audit and remaining release checks](doc/RELEASE_AUDIT_V1.0.0.md)**
 - **[Third-party credits and licensing](THIRD_PARTY_NOTICES.md)** · [GPL-3.0 license](LICENSE)
