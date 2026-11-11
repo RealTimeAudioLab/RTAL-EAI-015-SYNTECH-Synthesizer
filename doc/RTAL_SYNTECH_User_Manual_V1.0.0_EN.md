@@ -3,7 +3,7 @@
 **RTAL-EAI-015 · Firmware V1.0.0 FINAL · Edition: November 11, 2026**  
 *Polyphonic Virtual-Analog Synthesizer · Inspired by the Elka Synthex*
 
-![SYNTECH cover artwork](../assets/images/RTAL_SYNTECH_00_Startpage.PNG)
+![SYNTECH cover artwork](../images/RTAL_SYNTECH_00_Startpage.PNG)
 
 > This manual describes firmware V1.0.0 FINAL and its touchscreen interface. Historical screenshots showing 44.1 kHz do not specify the current operating rate: the reviewed source code uses **32 kHz / 256 frames**. A compatible SD-card preset bank is required for full operation; it is not included in the source archive.
 
