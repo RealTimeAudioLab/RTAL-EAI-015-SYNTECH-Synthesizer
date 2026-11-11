@@ -1,5 +1,3 @@
-<div align="center">
-
 ![RTAL SYNTECH cover](assets/images/RTAL_SYNTECH_00_Startpage.PNG)
 
 # RTAL-EAI-015-SYNTECH-Synthesizer
@@ -93,34 +91,34 @@ An on-screen diagnostic line reports DSP timing as well as **XRUN** and command-
 
 | Oscillators | Mixer | Filter |
 |:--:|:--:|:--:|
-| ![Oscillator page](assets/images/RTAL_SYNTECH_09_Oscillators.png) | ![Mixer page](assets/images/RTAL_SYNTECH_08_Mixer.png) | ![Filter page](assets/images/RTAL_SYNTECH_07_Filter.png) |
+| ![Oscillator page](images/RTAL_SYNTECH_09_Oscillators.png) | ![Mixer page](images/RTAL_SYNTECH_08_Mixer.png) | ![Filter page](images/RTAL_SYNTECH_07_Filter.png) |
 | **OSC** | **MIX** | **FILTER** |
 
 | Filter envelope | Amplifier envelope | Effects |
 |:--:|:--:|:--:|
-| ![Filter envelope](assets/images/RTAL_SYNTECH_06_Filter_Envelope.png) | ![Amplifier envelope](assets/images/RTAL_SYNTECH_05_Amp_Envelope.png) | ![Chorus and reverb](assets/images/RTAL_SYNTECH_03_FX.png) |
+| ![Filter envelope](images/RTAL_SYNTECH_06_Filter_Envelope.png) | ![Amplifier envelope](images/RTAL_SYNTECH_05_Amp_Envelope.png) | ![Chorus and reverb](images/RTAL_SYNTECH_03_FX.png) |
 | **F-ENV** | **A-ENV** | **FX** |
 
 | LFO controls | MIDI setup | Preset manager |
 |:--:|:--:|:--:|
-| ![LFO controls](assets/images/RTAL_SYNTECH_04_LFO.png) | ![MIDI setup](assets/images/RTAL_SYNTECH_01_MIDI_Setup.png) | ![Preset manager](assets/images/RTAL_SYNTECH_02_Preset.png) |
+| ![LFO controls](images/RTAL_SYNTECH_04_LFO.png) | ![MIDI setup](images/RTAL_SYNTECH_01_MIDI_Setup.png) | ![Preset manager](images/RTAL_SYNTECH_02_Preset.png) |
 | **LFO** | **MIDI** | **PRESET** |
 
 ### Modulation matrix: detailed views
 
 These enlarged captures highlight the modulation architecture and provide a closer look at the precision-oriented touch controls.
 
-![LFO matrix A enlarged](assets/images/RTAL_SYNTECH_10_LFO_Matrix_A.PNG)
+![LFO matrix A enlarged](images/RTAL_SYNTECH_10_LFO_Matrix_A.PNG)
 
 *Matrix A — OSC1/OSC2 pitch and OSC1 PWM modulation.*
 
-![LFO matrix B enlarged](assets/images/RTAL_SYNTECH_11_LFO_Matrix_B.PNG)
+![LFO matrix B enlarged](images/RTAL_SYNTECH_11_LFO_Matrix_B.PNG)
 
 *Matrix B — OSC2 PWM, filter and amplitude modulation.*
 
 ### Complete interface overview
 
-![SYNTECH screen overview](assets/images/RTAL_SYNTECH_12_OverView.png)
+![SYNTECH screen overview](images/RTAL_SYNTECH_12_OverView.png)
 
 ## MIDI control
 
@@ -148,7 +146,7 @@ MIDI is a central part of SYNTECH's design, not an afterthought. Along with note
 
 The source spreadsheet also defines **MIDI Learn identifiers**, **parameter ranges**, **UPPER/LOWER or global scope**, and the rest of the CC matrix. MIDI channel selection is presented through the on-device MIDI dialog; the design supports configurable MIDI channel handling. **MIDI Program Change 0–127** is intended to address the 128 patch slots.
 
-**[Complete MIDI CC reference](docs/MIDI_CC_REFERENCE.md)** · **[Original editable MIDI spreadsheet](docs/RTAL_SYNTECH_MIDI_CC_STANDARD_MOPHO_EDITOR.xlsx)**
+**[Complete MIDI CC reference](midi_implementation/MIDI_CC_REFERENCE.md)** · **[Original editable MIDI spreadsheet](midi_implementation/RTAL_SYNTECH_MIDI_CC_STANDARD_MOPHO_EDITOR.xlsx)**
 
 > [!NOTE]
 > This table is a documentation extract from the supplied MIDI editor workbook; it should not be mistaken for an automated verification of the exact firmware currently running in every screenshot.
@@ -238,8 +236,6 @@ The visual assets here are project screenshots/graphics supplied for this README
 If you are interested in the development, **watch** the repository for progress, screenshots, audio demos and upcoming technical releases.
 
 ---
-
-<div align="center">
 
 ### RTAL SYNTECH
 
