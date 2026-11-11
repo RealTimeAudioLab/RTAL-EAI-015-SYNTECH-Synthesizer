@@ -206,12 +206,9 @@ References:
 
 ---
 
-*Documentation revision 1.0.1 (corrected against V1.0.0 FINAL configuration) — 11 November 2026. This text is intended for GitHub publication as a technical companion document, with numerical claims explicitly scoped to their evidence.*
-
-
 ## V1.0 addendum: Final firmware source audit
 
-A **static source audit** of `RTAL_SYNTECH_V1_0_0_FINAL(2).ZIP` was performed on November 11, 2026. It establishes:
+A **static source audit** of `RTAL_SYNTECH_V1_0_0_FINAL.ZIP` was performed on November 11, 2026. It establishes:
 
 - **32,000 Hz / 256 stereo frames / 8,000 µs:** `RTAL_AUDIO_SAMPLE_RATE`, `FRAMES`, `SC_FS`, and the I²S configuration agree, with a compile-time assertion between DSP and I²S rates.
 - **32-kHz DSP port:** `sc_tables.h` explicitly identifies regenerated pitch/cutoff tables. LFO scaling, envelope timing, 96-sample filter-coefficient blocks, chorus, reverb delay/decay and limiter timing are adapted to 32 kHz.
