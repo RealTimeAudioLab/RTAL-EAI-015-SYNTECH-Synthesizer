@@ -1,5 +1,3 @@
-![RTAL SYNTECH cover](assets/images/RTAL_SYNTECH_00_Startpage.PNG)
-
 # RTAL-EAI-015-SYNTECH-Synthesizer
 
 ### Inspired by the legendary Elka Synthex · Built for ESP32-S3 · Powered by real-time DSP
