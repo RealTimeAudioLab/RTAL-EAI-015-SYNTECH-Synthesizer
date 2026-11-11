@@ -208,7 +208,7 @@ Note On/Off messages start and end notes. **CC123 — All Notes Off** releases h
 | Chorus Mix | CC48 | Bank 1, CC28 |
 | Reverb Mix | CC51 | Bank 1, CC102 |
 
-All **61 parameter mappings** are documented in [`MIDI_CC_REFERENCE.md`](MIDI_CC_REFERENCE.md) and in the original Excel workbook. MIDI Learn can change factory assignments.
+All **61 parameter mappings** are documented in [`README.md`](README.md) and in the original Excel workbook. MIDI Learn can change factory assignments.
 
 ## 15. Sound Design — Starter Patches
 
