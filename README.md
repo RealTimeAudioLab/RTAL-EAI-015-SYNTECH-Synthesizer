@@ -146,7 +146,7 @@ MIDI is a central part of SYNTECH's design, not an afterthought. Along with note
 
 The source spreadsheet also defines **MIDI Learn identifiers**, **parameter ranges**, **UPPER/LOWER or global scope**, and the rest of the CC matrix. MIDI channel selection is presented through the on-device MIDI dialog; the design supports configurable MIDI channel handling. **MIDI Program Change 0–127** is intended to address the 128 patch slots.
 
-**[Complete MIDI CC reference](midi_implementation/MIDI_CC_REFERENCE.md)** · **[Original editable MIDI spreadsheet](midi_implementation/RTAL_SYNTECH_MIDI_CC_STANDARD_MOPHO_EDITOR.xlsx)**
+**[Complete MIDI CC reference](midi_implementation/README.md)** · **[Original editable MIDI spreadsheet](midi_implementation/RTAL_SYNTECH_MIDI_CC_STANDARD_MOPHO_EDITOR.xlsx)**
 )**
 
 > [!NOTE]
