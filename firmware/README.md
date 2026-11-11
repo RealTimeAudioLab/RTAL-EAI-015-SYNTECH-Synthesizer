@@ -32,13 +32,9 @@ firmware/
     ├── sc_tables.h / sc_profile.h     ← DSP tables and profiling
     ├── SyntechSplash.h                ← embedded splash graphic
     ├── lv_conf.h                      ← LVGL configuration
-    ├── tests/                         ← native host validation tests
-    ├── tools/                         ← DSP table generation utility
-    ├── AENDERUNGEN_*.diff             ← historical development diffs
-    └── HOST_*_VALIDATION.txt          ← historical test outputs
 ```
 
-The `tests/`, `tools/`, historical diffs and validation logs are developer materials, not additional firmware images. Open the **`.ino` file inside the identically named project directory** to build the sketch.
+Open the **`.ino` file inside the identically named project directory** to build the sketch.
 
 ## 2. Implemented capabilities
 
@@ -53,7 +49,7 @@ The `tests/`, `tools/`, historical diffs and validation logs are developer mater
 - MIDI **CC120 (All Sound Off)** and **CC123 (All Notes Off)** are processed even during MIDI Learn.
 - SD-based patch storage with **128 slots**: factory `P000–P079`, user `P080–P127`.
 
-See the [project overview](../README.md), [MIDI CC reference](../docs/MIDI_CC_REFERENCE.md), and the [English user manual](../docs/RTAL_SYNTECH_User_Manual_V1.0.0_EN.md) for details.
+See the [project overview](../README.md), [MIDI CC reference](../doc/RTAL_SYNTECH_User_Manual_V1.0.0_EN.md), and the [English user manual](../doc/RTAL_SYNTECH_User_Manual_V1.0.0_EN.md) for details.
 
 ## 3. Target hardware and audio settings
 
@@ -127,26 +123,9 @@ The system separates time-critical synthesis from GUI and MIDI handling. Control
 - **MIDI Learn:** persistent per-parameter mappings.
 - **Program Change:** addresses slots `0–127`.
 
-For the authoritative parameter names and CC mapping, see [`docs/MIDI_CC_REFERENCE.md`](../docs/MIDI_CC_REFERENCE.md). Verify MIDI wiring and controller channel settings during integration.
+For the authoritative parameter names and CC mapping, see [`doc/README.md`](../doc/README.md). Verify MIDI wiring and controller channel settings during integration.
 
-## 7. Tests and release-readiness
-
-The publication audit executed these **native host** test scripts from `RTAL_SYNTECH_V1_0_0_FINAL/tests/`:
-
-| Script | Audit result |
-|:--|:--|
-| `run_host_test.sh` | PASS |
-| `run_cross2_sqfast_diff.sh` | PASS |
-| `run_filterdiag_host.sh` | PASS |
-| `run_filterenv1_isolation.sh` | PASS |
-| `run_filterreso_ab.sh` | PASS |
-| `run_fix4.sh` | PASS |
-
-Run these from a Unix-like environment with the necessary C/C++ compiler and Python prerequisites available. They validate specific DSP and regression paths; **they are not full hardware, touch, SD, USB-MIDI or end-to-end audio tests**.
-
-For the explicit limitations and remaining release actions, read the [V1.0.0 release audit](../docs/RELEASE_AUDIT_V1.0.0.md).
-
-## 8. Upstream attribution and licenses
+## 7. Upstream attribution and licenses
 
 **Joakim Eriksson's SCINTILLA project is a primary source-code and DSP ancestor of RTAL SYNTECH.** We explicitly acknowledge the original author and do not present the synthesis engine as having been written from scratch.
 
@@ -160,4 +139,4 @@ The package includes the GNU GPL v3 license text at [`../LICENSE`](../LICENSE) a
 ---
 
 **RealTimeAudioLab · RTAL-EAI-015 · Firmware V1.0.0 FINAL**  
-[Main project README](../README.md) · [User manual (EN)](../docs/RTAL_SYNTECH_User_Manual_V1.0.0_EN.md) · [Release audit](../docs/RELEASE_AUDIT_V1.0.0.md)
+[Main project README](../README.md) · [User manual (EN)](../doc/RTAL_SYNTECH_User_Manual_V1.0.0_EN.md) · [Release audit](../doc/RELEASE_AUDIT_V1.0.0.md)
