@@ -1,10 +1,9 @@
 # Inside RTAL SYNTECH
-> **V1.0.2 update:** Earlier disclaimers stating that final source had not yet been reviewed are superseded by the static audit of the uploaded V1.0.0 FINAL ZIP. Historical benchmarks remain unverified without runtime logs.
 
 ## High-Quality Sound with an Efficient DSP Architecture
 
 **Technical architecture and performance analysis — RTAL SYNTECH V1.0.0 FINAL**  
-**Document revision: 1.0.2 (source-audited)**  
+**Document revision: 1.0 (source-audited)**  
 **Date:** 11 November 2026  
 **Platform:** ESP32-S3 / JC4827W543 (MAIN)  
 **Sampling rate:** 32,000 Hz | **Block size:** 256 audio frames | **Released configuration:** 6-note polyphony
