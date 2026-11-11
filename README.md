@@ -14,7 +14,7 @@
 
 
 > [!IMPORTANT]
-> **Firmware source release V1.0.0 FINAL.** The supplied firmware source has been inspected and its six bundled host-test groups passed in this publication audit. The source has *not* been recompiled for ESP32-S3 with Arduino IDE here, nor has this packaged copy been reflashed as part of the audit. A prepared SD preset bank is essential; see [Installation](#build--installation) and [Release audit](docs/RELEASE_AUDIT_V1.0.0.md).
+> **Firmware source release V1.0.0 FINAL.** The supplied firmware source has been inspected and its six bundled host-test groups passed in this publication audit. The source has *not* been recompiled for ESP32-S3 with Arduino IDE here, nor has this packaged copy been reflashed as part of the audit. A prepared SD preset bank is essential; see [Installation](#build--installation) and [Release audit](doc/RELEASE_AUDIT_V1.0.0.md).
 
 
 https://github.com/user-attachments/assets/709780a9-422d-4dee-b969-57c467f08526
