@@ -209,9 +209,9 @@ Quellen:
 *Dokumentationsrevision 1.0.1 (an V1.0.0 FINAL angepasste Korrekturfassung) — 11. November 2026. Diese Datei ist als technische Ergänzung für GitHub vorgesehen. Zahlenangaben werden ausdrücklich auf die jeweilige Beleglage und Testkonfiguration begrenzt.*
 
 
-## Ergänzung V1.0.2: Prüfung des finalen Firmware-Quellcodes
+## Ergänzung V1.0: Prüfung des finalen Firmware-Quellcodes
 
-Das Quellcode-ZIP `RTAL_SYNTECH_V1_0_0_FINAL(2).ZIP` wurde am 11. November 2026 **statisch analysiert**. Diese Prüfung bestätigt:
+Das Quellcode-ZIP `RTAL_SYNTECH_V1_0_0_FINAL.ZIP` wurde am 11. November 2026 **statisch analysiert**. Diese Prüfung bestätigt:
 
 - **32.000 Hz / 256 Stereo-Frames / 8.000 µs:** `RTAL_AUDIO_SAMPLE_RATE`, `FRAMES`, `SC_FS` und I²S sind konsistent eingestellt; `static_assert` prüft DSP gegen I²S.
 - **32-kHz-DSP:** `sc_tables.h` kennzeichnet neu generierte Pitch-/Cutoff-Tabellen. LFO-Takt, Hüllkurven-Zeiten, 96-Sample-Filterkoeffizientenblöcke, Chorus, Reverb und Limiter wurden für 32 kHz angepasst.
