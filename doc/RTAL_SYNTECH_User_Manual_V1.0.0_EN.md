@@ -67,7 +67,7 @@ The source code specifies Arduino IDE **2.3.10**, Arduino-ESP32 core **3.3.11** 
 
 ## 4. Main User Interface
 
-![Overview of all touchscreen pages](../assets/images/RTAL_SYNTECH_12_OverView.png)
+![Overview of all touchscreen pages](../images/RTAL_SYNTECH_12_OverView.png)
 
 The top bar shows the preset number and patch name. Arrow buttons change the selected number. **LAYER** selects UPPER/LOWER; **MODE** selects the play mode. **MIDI** opens MIDI settings and **BANK** opens the preset dialog. The main tabs are **OSC**, **MIX**, **FILTER**, **F-ENV**, **A-ENV**, **LFO** and **FX**.
 
@@ -83,7 +83,7 @@ A short tap advances by one slot. Holding an arrow enables accelerated repeat: a
 
 ## 5. Oscillators — OSC
 
-![OSC page](../assets/images/RTAL_SYNTECH_09_Oscillators.png)
+![OSC page](../images/RTAL_SYNTECH_09_Oscillators.png)
 
 **OSC1 WAVE / OSC2 WAVE:** Choose the waveforms of both sound generators. Different waveforms alter the harmonic spectrum, from mellow to bright. **OSC1 PWM / OSC2 PWM:** Adjust pulse width, particularly useful for animated, chorus-like timbres. **DETUNE:** Detune the second oscillator relative to the first. **OSC SYNC:** Enable oscillator synchronization. Small detuning produces beating; sync can create pronounced harmonic sweeps.
 
@@ -91,7 +91,7 @@ A short tap advances by one slot. Holding an arrow enables accelerated repeat: a
 
 ## 6. Mixer and Cross-Modulation — MIX
 
-![MIX page](../assets/images/RTAL_SYNTECH_08_Mixer.png)
+![MIX page](../images/RTAL_SYNTECH_08_Mixer.png)
 
 **OSC1 LEVEL / OSC2 LEVEL:** Balance the two oscillators. **NOISE:** Add noise to the sound. **CROSS1 / CROSS2:** Additional oscillator cross-modulation producing metallic, aggressive or complex spectra. **RING MOD:** Ring modulation for bell-like or inharmonic timbres. These processing options have both musical and CPU costs.
 
@@ -99,7 +99,7 @@ A short tap advances by one slot. Holding an arrow enables accelerated repeat: a
 
 ## 7. Filter — FILTER
 
-![Filter page](../assets/images/RTAL_SYNTECH_07_Filter.png)
+![Filter page](../images/RTAL_SYNTECH_07_Filter.png)
 
 **CUTOFF** controls the cutoff frequency, while **RESONANCE** emphasizes frequencies around that cutoff. **FILTER TYPE** switches between the available filter modes, including the musically tuned LP24 mode. **ENV AMOUNT** sets the filter envelope's influence; **KEY TRACK** makes the filter response depend on note pitch. **PINK NOISE** toggles the corresponding noise option.
 
@@ -107,31 +107,31 @@ When loading presets, firmware V1.0.0 uses the developed *MUSICAL LP24* resonanc
 
 ## 8. Filter Envelope — F-ENV
 
-![Filter envelope](../assets/images/RTAL_SYNTECH_06_Filter_Envelope.png)
+![Filter envelope](../images/RTAL_SYNTECH_06_Filter_Envelope.png)
 
 The filter envelope shapes the filter movement after a key is pressed: **ATTACK** (time to peak), **DECAY** (fall to the sustain level), **SUSTAIN** (level while the key is held) and **RELEASE** (return after key release). The audible result depends strongly on **ENV AMOUNT** on the filter page. For brass sounds, try short attack, medium decay and moderate sustain; for floating pads, use longer attack and release.
 
 ## 9. Amplifier Envelope — A-ENV
 
-![Amplifier envelope](../assets/images/RTAL_SYNTECH_05_Amp_Envelope.png)
+![Amplifier envelope](../images/RTAL_SYNTECH_05_Amp_Envelope.png)
 
 **AMP ATTACK**, **AMP DECAY**, **AMP SUSTAIN** and **AMP RELEASE** determine the volume contour over time. Short attack and release values produce precise, percussive sounds; longer settings result in smooth fades. With high polyphony and long release times, voices may remain occupied longer.
 
 ## 10. LFOs and Modulation Matrix
 
-![LFO page](../assets/images/RTAL_SYNTECH_04_LFO.png)
+![LFO page](../images/RTAL_SYNTECH_04_LFO.png)
 
 SYNTECH includes two LFOs. The LFO view provides **RATE**, **WAVE**, **PITCH/PWM**, **FLT/AMP**, **DELAY** and **SYNC** controls. Select the modulator with **LFO 1** or **LFO 2**; **MAIN** displays its principal settings. The two matrix pages allow targeted modulation with positive or negative amounts.
 
 ### 10.1 MATRIX A: Pitch / PWM
 
-![LFO Matrix A](../assets/images/RTAL_SYNTECH_10_LFO_Matrix_A.PNG)
+![LFO Matrix A](../images/RTAL_SYNTECH_10_LFO_Matrix_A.PNG)
 
 **OSC1 PITCH**, **OSC2 PITCH** and **OSC1 PWM** control modulation intensity. PITCH produces vibrato or broader pitch movement; PWM creates periodic timbral changes.
 
 ### 10.2 MATRIX B: PWM / Filter / Amplitude
 
-![LFO Matrix B](../assets/images/RTAL_SYNTECH_11_LFO_Matrix_B.PNG)
+![LFO Matrix B](../images/RTAL_SYNTECH_11_LFO_Matrix_B.PNG)
 
 **OSC2 PWM**, **FILTER** and **AMPLITUDE** modulate the second oscillator's pulse width, filter and volume respectively. Use AMPLITUDE for tremolo, FILTER for automated sweeps and PWM for moving timbres. Bipolar MIDI matrix values use **64 as the center/zero position**, 0 as the negative extreme and 127 as the positive extreme.
 
@@ -141,7 +141,7 @@ SYNTECH includes two LFOs. The LFO view provides **RATE**, **WAVE**, **PITCH/PWM
 
 ## 11. Effects — FX
 
-![FX page](../assets/images/RTAL_SYNTECH_03_FX.png)
+![FX page](../images/RTAL_SYNTECH_03_FX.png)
 
 **CHORUS ON/OFF** enables a wider, animated chorus effect. **CHORUS MIX** sets its contribution, **RATE** its movement speed and **DEPTH** its modulation depth. **REVERB ON/OFF** enables room-like reverberation; **REVERB MIX**, **SIZE** and **DAMPING** control the wet level, sense of space and damping. For well-defined basses, use less reverb; for pads, try more chorus and moderate reverb.
 
@@ -151,7 +151,7 @@ SYNTECH includes two LFOs. The LFO view provides **RATE**, **WAVE**, **PITCH/PWM
 
 ## 13. Presets and SD Card
 
-![Preset dialog](../assets/images/RTAL_SYNTECH_02_Preset.png)
+![Preset dialog](../images/RTAL_SYNTECH_02_Preset.png)
 
 ### 13.1 Storage Locations
 
@@ -171,7 +171,7 @@ MIDI Program Change 0–127 addresses the corresponding preset numbers. **PC 0 =
 
 ## 14. MIDI Configuration and Control
 
-![MIDI setup](../assets/images/RTAL_SYNTECH_01_MIDI_Setup.png)
+![MIDI setup](../images/RTAL_SYNTECH_01_MIDI_Setup.png)
 
 ### 14.1 Interfaces and Channel
 
