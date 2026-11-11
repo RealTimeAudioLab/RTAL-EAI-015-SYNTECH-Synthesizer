@@ -222,7 +222,7 @@ RTAL SYNTECH **acknowledges and credits Joakim Eriksson** for his **SCINTILLA** 
 
 ### Historic inspiration
 
-The **Elka Synthex** was designed by **Mario Maggi** and is renowned for its layered analog sound and distinctive modulation and filter architecture. **SYNTECH** is a separate project, not endorsed by or affiliated with Elka or any current trademark holder. The historically correct instrument name is **Synthex** (with **h**); the repository subtitle preserves the requested wording “inspired by Elka Syntex” for discoverability, but this README uses the correct spelling throughout.
+The **Elka Synthex** was designed by **Mario Maggi** and is renowned for its layered analog sound and distinctive modulation and filter architecture. **SYNTECH** is a separate project, not endorsed by or affiliated with Elka or any current trademark holder. 
 
 ## Licensing and distribution
 
