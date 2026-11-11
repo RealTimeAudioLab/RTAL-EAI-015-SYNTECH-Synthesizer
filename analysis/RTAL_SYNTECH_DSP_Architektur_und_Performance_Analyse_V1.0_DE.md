@@ -206,9 +206,6 @@ Quellen:
 
 ---
 
-*Dokumentationsrevision 1.0.1 (an V1.0.0 FINAL angepasste Korrekturfassung) — 11. November 2026. Diese Datei ist als technische Ergänzung für GitHub vorgesehen. Zahlenangaben werden ausdrücklich auf die jeweilige Beleglage und Testkonfiguration begrenzt.*
-
-
 ## Ergänzung V1.0: Prüfung des finalen Firmware-Quellcodes
 
 Das Quellcode-ZIP `RTAL_SYNTECH_V1_0_0_FINAL.ZIP` wurde am 11. November 2026 **statisch analysiert**. Diese Prüfung bestätigt:
