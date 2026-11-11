@@ -19,6 +19,10 @@
 > [!IMPORTANT]
 > **Development preview / teaser — not a finished firmware release.** This repository presentation documents the evolving project and shows real interface captures. Build instructions, binaries and complete source releases will follow when a reproducible release package is prepared. Features and performance may change during development.
 
+
+https://github.com/user-attachments/assets/709780a9-422d-4dee-b969-57c467f08526
+
+
 ## The project
 
 **RTAL SYNTECH** is a standalone embedded virtual-analog synthesizer inspired by the architecture and musical spirit of the **Elka Synthex**. The project combines the classic signal-flow concepts of a vintage polyphonic instrument with a modern graphical user interface, external MIDI control and an ESP32-S3 real-time audio system.
