@@ -230,6 +230,11 @@ The following features describe the **proposed roadmap**, not functionality incl
 
 V1.1.0 is planned to introduce a dedicated polyphonic step sequencer inspired by the **Elka Synthex's hands-on sequencing philosophy**, extended with contemporary performance features.
 
+<div align="center">
+  <img src="images/RTAL_SYNTECH_V110_1.PNG" width="48%">
+  <img src="images/RTAL_SYNTECH_V110_2.PNG" width="48%">
+</div>
+
 #### Proposed sequencer features
 
 | Feature | V1.1.0 plan |
@@ -282,6 +287,11 @@ The sequencer will **not directly manipulate DSP voices**. This event-oriented s
 ### RTAL SYNTECH V2.0.0 — Multi-ESP32-S3 Architecture
 
 V2.0.0 is proposed to expand SYNTECH using a **three-module ESP32-S3 architecture**, building on the project's established multi-controller concept.
+
+<div align="center">
+  <img src="images/RTAL_SYNTECH_V200_1.PNG" width="48%">
+  <img src="images/RTAL_SYNTECH_V200_2.PNG" width="48%">
+</div>
 
 #### Proposed module responsibilities
 
