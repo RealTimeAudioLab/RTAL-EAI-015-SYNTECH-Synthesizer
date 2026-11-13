@@ -1,7 +1,7 @@
 # RTAL SYNTECH — Firmware
 
 **Project:** [RTAL-EAI-015-SYNTECH-Synthesizer](../README.md)  
-**Firmware:** `V1.0.0 FINAL`  
+**Firmware:** `V1.0.1 FINAL`  
 **Target:** ESP32-S3 · Guition JC4827W543 · 480 × 272 touchscreen
 
 ![Firmware](https://img.shields.io/badge/firmware-v1.0.0%20FINAL-00d7eb?style=flat-square)
@@ -19,7 +19,7 @@ The current source is in:
 ```text
 firmware/
 ├── README.md                          ← this file
-└── RTAL_SYNTECH_V1_0_0_FINAL/
+└── RTAL_SYNTECH_V1_0_1_FINAL/
     ├── RTAL_SYNTECH_V1_0_0_FINAL.ino  ← Arduino IDE entry point
     ├── Board.cpp / Board.h            ← board and display integration
     ├── PINS_JC4827W543.h              ← board pin definitions
