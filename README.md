@@ -194,6 +194,7 @@ External MIDI controller / sequencer
 
 This is a **conceptual architecture diagram**, not a pin-level wiring schematic or a promise that each branch exists unchanged in every development revision. Hardware connection tables and reproducible build settings will be published with a source release.
 
+
 ## JC4827W543 — ESP32-S3 touchscreen board and RTAL hardware modifications
 
 The **Guition JC4827W543** is the compact MAIN platform used by RTAL SYNTECH. It combines an ESP32-S3 with a **480 × 272 NV3041A QSPI LCD**, **GT911 capacitive touchscreen**, microSD connectivity and interfaces for the external I²S audio and MIDI circuitry. For SYNTECH, the board is more than a display: it runs the touch interface, MIDI processing and real-time synthesizer engine.
