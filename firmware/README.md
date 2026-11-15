@@ -10,7 +10,7 @@
 ![Voices](https://img.shields.io/badge/polyphony-up%20to%206-0077cc?style=flat-square)
 
 > [!IMPORTANT]
-> **Source release with installation prerequisites.** The V1.0.0 firmware has previously been reported working on the target hardware, and six included native host-test groups passed the publication audit. A clean ESP32-S3 rebuild/reflash of this exact archive was **not** independently reproduced. **A valid SD preset bank is required** and is **not included** in the supplied firmware archive. This is not yet a self-contained, ready-to-flash installation bundle.
+> **Source release with installation prerequisites.** The V1.0.1 firmware has previously been reported working on the target hardware, and six included native host-test groups passed the publication audit. A clean ESP32-S3 rebuild/reflash of this exact archive was **not** independently reproduced. **A valid SD preset bank is required** and is **not included** in the supplied firmware archive. This is not yet a self-contained, ready-to-flash installation bundle.
 
 ## 1. Firmware package
 
@@ -138,5 +138,5 @@ The package includes the GNU GPL v3 license text at [`../LICENSE`](../LICENSE) a
 
 ---
 
-**RealTimeAudioLab · RTAL-EAI-015 · Firmware V1.0.0 FINAL**  
+**RealTimeAudioLab · RTAL-EAI-015 · Firmware V1.0.1 FINAL**  
 [Main project README](../README.md) · [User manual (EN)](../doc/RTAL_SYNTECH_User_Manual_V1.0.0_EN.md) · [Release audit](../doc/RELEASE_AUDIT_V1.0.0.md)
